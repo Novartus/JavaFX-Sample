@@ -4,6 +4,12 @@ import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.ClipboardContent;
+import javafx.scene.input.Dragboard;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.input.TransferMode;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Font;
 
@@ -20,7 +26,6 @@ public class BaseController {
     @FXML
     private AnchorPane pane;
 
-
     protected void add(Node node) {
         pane.getChildren().add(node);
     }
@@ -32,5 +37,6 @@ public class BaseController {
     protected void log(Object line) {
         log.appendText((line.toString() + System.lineSeparator()));
     }
+
 
 }
