@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/src/Novartus/UI-1" />
       <excludeFolder url="file://$MODULE_DIR$/src/Novartus/UI-2" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Novartus/UI-3" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
