@@ -13,5 +13,4 @@ public class Controller extends BaseController implements Initializable {
         //   log("Initialization Done");
     }
 
-
 }
